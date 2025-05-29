@@ -1,5 +1,5 @@
 {% set name = "jinja-lsp" %}
-{% set version = "0.1.85" %}
+{% set version = "0.1.86" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/uros-5/jinja-lsp/archive/v{{ version }}.tar.gz
-  sha256: bd3816d060a55c32d81a22bb67fa42ee7e2ca336788d9391078efa3cc15de6f0
+  sha256: 8875b61c41f5390c207cd1639c2530587c5f1b4da6aa249db75ec023a79202f5
 
 build:
   number: 0
