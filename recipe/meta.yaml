@@ -1,8 +1,7 @@
-{% set name = "jinja-lsp" %}
 {% set version = "0.1.90" %}
 
 package:
-  name: {{ name|lower }}
+  name: jinja-lsp
   version: {{ version }}
 
 source:
@@ -10,7 +9,7 @@ source:
   sha256: bb61303c318bee8c9c30e23dc1cf618192d1de87f6b2f9acb92b2e358a45e4cf
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
